@@ -4,7 +4,6 @@
 .navbar {
   background-color: #333;
   color: white;
-  padding: 10px;
 }
 .navbar a {
   color: white;
@@ -12,8 +11,25 @@
   padding: 10px;
 }
 .navbar a:hover {
-  background-color: yellow;
+  color: yellow;
 }
 .navbar .active {
-  background-color: black
+  background-color: black;
+}
+
+/* header styles */
+header{
+background: no-repeat center/cover url("images/header-image.jpg");
+background-position: 50% 20%;
+  background-color: #f1f1f1;
+  min-height: 250px;
+  max-height: 300px;
+text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+padding-top: 70px;
+}
+
+.intro-heading {
+  color: white;
+  text-align: center;
+/*   margin-top: 20px; */
 }

@@ -8,54 +8,86 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/styles.css">
-    
 </head>
+
 <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Services
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Renovation</a></li>
-                      <li><a class="dropdown-item" href="#">Demolition</a></li>
-                      <li><a class="dropdown-item" href="#">Property Development</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+<!-- navbar -->
+<nav class="navbar navbar-expand-md bg-body-tertiary d-flex justify-content-end">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-helmet-safety"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars" style="color: white;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Renovation</a></li>
+              <li><a class="dropdown-item" href="#">Demolition</a></li>
+              <li><a class="dropdown-item" href="#">Property Development</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
     <!-- Header section -->
     <header>
-        <div class="container">
-            <h1>Dig Deep Construction</h1>
+        <div class="intro-heading container justify-content-center text-center vertical-center">
+            <h1><span>Dig Deep</span><br> Construction</h1>
             <p>Your trusted partner in construction and renovation.</p>
-            <img src="assets/header-image.jpg" alt="photo of front lodaer scraping concrete">
         </div>
     </header>
     <main>
-    <!-- Introduction section -->
+    <!-- About section -->
         <section id="about">
-            <div class="container">
-                <h1>Welcome to Deep Deep Construction</h1>
-                <p>Your trusted partner in construction and renovation.</p>
+            <div class="container text-center">
+                <h3>Your trusted partner in construction and renovation.</p>
+                <div class="row">
+                    <!-- history card -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <img src="..." class="card-img-top" alt="...">
+                          </div>
+                    </div>
+                    <!-- Values card -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <img src="..." class="card-img-top" alt="...">
+                          </div>
+                    </div>
+                    <!-- License/certifications card -->
+                    <div class="col-md 4">
+                        <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <img src="..." class="card-img-top" alt="...">
+                          </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Services section -->
