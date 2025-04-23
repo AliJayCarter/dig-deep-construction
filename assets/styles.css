@@ -31,5 +31,10 @@ padding-top: 70px;
 .intro-heading {
   color: white;
   text-align: center;
-/*   margin-top: 20px; */
+}
+
+/* About section styles */
+#about {
+  background-color: #f1f1f1;
+  padding: 10px 0;
 }
