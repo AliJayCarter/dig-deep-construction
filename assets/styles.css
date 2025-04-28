@@ -39,7 +39,9 @@ padding-top: 70px;
 }
 
 /* About section styles */
-#about {
+
+/* Container styles */
+.container-style {
+  padding: 20px 0 10px 0 ;
   background-color: #f1f1f1;
-  padding: 10px 0;
 }
