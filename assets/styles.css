@@ -258,4 +258,7 @@ footer .location-img iframe{
   #services .card {
     min-height: 200px;
   }
+  #about .card {
+    min-height: 200px;
+  }
 }
