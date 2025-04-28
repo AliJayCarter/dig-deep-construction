@@ -144,6 +144,11 @@ header .btn:hover {
   border:orange solid 1px;
 }
 
+#about .list-group-item {
+  border-left: none;
+  border-right: none;
+}
+
 /* Services section */
 #services .card {
   margin: 10px 0;
