@@ -254,3 +254,8 @@ footer .location-img iframe{
     min-height: 320px;
   }
 }
+@media screen and (max-width: 425px) {
+  #services .card {
+    min-height: 200px;
+  }
+}
