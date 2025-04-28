@@ -15,7 +15,7 @@
   text-decoration: none;
 }
 .navbar a:hover {
-  color: yellow;
+  color: orange;
 }
 .navbar .active {
   background-color: black;
@@ -63,7 +63,7 @@ header .btn:hover {
 
 }
 
-/* Container styles */
+/* Container styles General*/
 .container-style {
   padding: 20px 0 10px 0 ;
   background-color: #f1f1f1;
@@ -119,12 +119,6 @@ header .btn:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   min-height: 365px;
   border:orange solid 1px;
-}
-
-@media screen and (min-width: 1024px) {
-  #about .card {
-    min-height: 270px;
-  }
 }
 
 /* Services section */
@@ -227,4 +221,13 @@ footer .location-img iframe{
   max-width: 300px;
   margin: 0 auto;
   border-radius: 20px;
+}
+/* Media Queries */
+@media screen and (min-width: 1024px) {
+  #about .card {
+    min-height: 270px;
+  }
+  #services .card {
+    min-height: 320px;
+  }
 }
