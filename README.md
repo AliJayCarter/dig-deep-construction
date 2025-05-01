@@ -60,8 +60,8 @@ The website is a landing page for a construction company. The website's main pur
 - Accessibilty: I confirmed the fonts and colors are suitable by running the code through Lighthouse in devtools.
 ![image](https://github.com/user-attachments/assets/84d0c70a-74d5-4d37-b87d-4ac60a0fce1d)
 
-### Unsolved bugs
-- No bugs were left unsolved. 
+### Unfixed bugs
+- No bugs were left unfixed. 
 
 ## Dependencies
 - [Bootstrap 5](https://getbootstrap.com/)
@@ -77,7 +77,8 @@ The website is a landing page for a construction company. The website's main pur
 
 ## Credits
 - **Bootstrap**: Code from bootstrap was used for features such as cards, modal, navabar and form.
-- **Co-pilot**: used to generate text to fill content. 
+- **Co-pilot**: used to generate text to fill content.
+- **Pexels**: Used to obtain the header image. 
 
 ## Custom Scripts
 The project includes a JavaScript snippet to handle form submission:
