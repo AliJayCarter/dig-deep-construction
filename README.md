@@ -45,6 +45,7 @@ The website is a landing page for a construction company. The website's main pur
 - The website was tested on Chrome, Firefox and Safari for resposiveness.
 - The form and dropdowns work as intended on all browsers listed.
 - The wesbite looks as it was intended on all device sizes on the browsers mentioned above.
+- The contact form was tested to ensure all fields are required along with the modal dropping down and confirming succesful submission. The fuction worked on all browsers mentioned above. 
 
 ## Bugs
 ### Fixed Bugs
