@@ -52,7 +52,7 @@ header h1 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
+  text-shadow: #00000080 1px 1px 1px;
 }
 
 header p{
@@ -66,7 +66,7 @@ header p{
 header p > span {
   font-weight: 400;
   font-style: italic;
-  text-shadow: #333 2px 2px 1px;
+  text-shadow: #333333 2px 2px 1px;
   font-size: 1.2rem;
   color: #ffa500;
 }
@@ -82,7 +82,7 @@ header .btn {
 header .btn:hover {
   background-color: #f1f1f1;
   color: #333333;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px #00000080;
 }
 
 .intro-heading {
@@ -92,7 +92,7 @@ header .btn:hover {
   border: none;
   box-shadow: #f1f1f1 0px 0px 5px;
   width: 90%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #00000080 ;
   border-radius: 20px;
   padding-bottom: 20px;
 
@@ -112,7 +112,7 @@ header .btn:hover {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
+  text-shadow: #00000080  1px 1px 1px;
   text-decoration: underline lightgray solid 2px;
 }
 
@@ -151,7 +151,7 @@ header .btn:hover {
   margin: 10px 0;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px #00000080;
   border:#ffa500 solid 1px;
 }
 
@@ -165,7 +165,7 @@ header .btn:hover {
   margin: 10px 0;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px#00000080 ;
   border: #ffa500 solid 1px;
 }
 
@@ -174,7 +174,7 @@ header .btn:hover {
   background-color: #ffffff;
   border: #ffa500 solid 1px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px #00000080;
   padding-bottom: 15px;
 }
 
@@ -195,7 +195,7 @@ header .btn:hover {
 #contact .btn:hover {
   background-color: #f1f1f1;
   color: #333333;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px #00000080;
 
 }
 
@@ -215,7 +215,7 @@ footer h2 {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-shadow: rgba(255,255,255, 0.5) 1px 1px 1px;
+  text-shadow: #ffffff80 1px 1px 1px;
 }
 
 footer h5 {
