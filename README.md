@@ -79,7 +79,7 @@ The website is a landing page for a construction company. The website's main pur
 
 ## Credits
 - **Bootstrap**: Code from bootstrap was used for features such as cards, modal, navabar and form.
-- **Co-pilot**: used to generate text to fill content.
+- **Co-pilot**: Used to generate text to fill content.
 - **Pexels**: Used to obtain the header image. 
 
 ## Custom Scripts
