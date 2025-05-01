@@ -100,7 +100,7 @@ header .btn:hover {
 
 /* Containers for sections styles - General*/
 .container-style {
-  padding: 20px 0 10px 0 ;
+  padding: 4.5% 0 10px 0 ;
   background-color: #f1f1f1;
 }
 
@@ -147,6 +147,7 @@ header .btn:hover {
 }
 
 /* About section */
+
 #about .card {
   margin: 10px 0;
   background-color: #ffffff;
