@@ -34,7 +34,7 @@
 
 /* header styles */
 header{
-background: no-repeat center/cover url("../images/header-image.jpg");
+background: no-repeat center/cover url("../images/header-image.jpg"); 
 background-position: 50% 20%;
   background-color: #f1f1f1;
   min-height: 250px;
@@ -290,9 +290,18 @@ footer .location-img iframe{
   header h1 {
     font-size: 3rem;
   }
-
+/* Removed border radius on background text for a different effect */
   .intro-heading {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #about .card {
+    min-height: 230px;
+  }
+  #services .card {
+    min-height: 250px;
   }
 }
