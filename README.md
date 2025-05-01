@@ -59,7 +59,8 @@ The website is a landing page for a construction company. The website's main pur
 - HTML: No erros were returned from the official W3C validator.
 - CSS: No erros were returned from the official Jigsaw validator.
 - Accessibilty: I confirmed the fonts and colors are suitable by running the code through Lighthouse in devtools.
-![image](https://github.com/user-attachments/assets/84d0c70a-74d5-4d37-b87d-4ac60a0fce1d)
+![image](https://github.com/user-attachments/assets/e75d881c-e1a7-45d4-bea6-78f44d133b48)
+
 
 ### Unfixed bugs
 - No bugs were left unfixed. 
