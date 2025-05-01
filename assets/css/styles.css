@@ -48,7 +48,7 @@ header h1 {
   text-decoration-color: #333333;
   color: #ffffff;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -59,7 +59,7 @@ header p{
   font-weight: 400;
   font-style: italic;
   text-shadow: #333333 2px 2px 1px;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   color: #ffffff;
 }
 
@@ -67,7 +67,7 @@ header p > span {
   font-weight: 400;
   font-style: italic;
   text-shadow: #333333 2px 2px 1px;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   color: #ffa500;
 }
 
@@ -87,7 +87,7 @@ header .btn:hover {
 
 .intro-heading {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 300;
   border: none;
   box-shadow: #f1f1f1 0px 0px 5px;
@@ -100,20 +100,22 @@ header .btn:hover {
 
 /* Containers for sections styles - General*/
 .container-style {
-  padding: 4.5% 0 10px 0 ;
   background-color: #f1f1f1;
 }
 
 .container-style h2 {
+  background-color: #ffffff;
+  border: #ffa500 solid 2px;
+  padding: 0.5% 0;
+  border-radius: 20px;
   text-align: center;
   margin-bottom: 20px;
   color: #333333;
-  font-weight: 300;
-  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-shadow: #00000080  1px 1px 1px;
-  text-decoration: underline lightgray solid 2px;
+  text-shadow: #00000010  1px 1px 1px;
 }
 
 .container-style h5 {
@@ -121,7 +123,7 @@ header .btn:hover {
   margin-bottom: 20px;
   color: #333333;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -131,14 +133,14 @@ header .btn:hover {
   margin-bottom: 20px;
   color: #333333;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1em;
   letter-spacing: 0.5px;
 }
 
 .container-style li {
   color: #333333;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1em;
   letter-spacing: 0.5px;
   list-style-type: square;
   text-align: left;
@@ -182,7 +184,7 @@ header .btn:hover {
 #contact form .form-label {
   color: #333333;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 #contact .btn{
@@ -213,7 +215,7 @@ footer h2 {
   margin-bottom: 20px;
   color: #f1f1f1;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-shadow: #ffffff80 1px 1px 1px;
@@ -225,7 +227,7 @@ footer h5 {
   padding-top: 20px;
   color: #f1f1f1;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -238,7 +240,7 @@ footer ul {
 footer li {
   color: #f1f1f1;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1em;
   letter-spacing: 0.5px;
   list-style-type: square;
   text-align: left;
@@ -247,7 +249,7 @@ footer li {
 footer .social-media .fa-brands {
   color: #f1f1f1;
   padding: 20px;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 footer .social-media .fa-brands:hover {
@@ -263,32 +265,38 @@ footer .location-img iframe{
 }
 /* Media Queries */
 @media screen and (max-width: 425px) {
+  .container-style {
+    padding: 20% 0 10px 0 ;
+  }
   #services .card {
-    min-height: 200px;
+    min-height: 50%;
   }
   #about .card {
-    min-height: 200px;
+    min-height: 50%;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .container-style {
+    padding: 10% 0 10px 0 ;
+  }
   #about .card {
-    min-height: 342px;
+    min-height: 95%;
   }
   #services .card {
-    min-height: 430px;
+    min-height: 100%;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  #about .card {
-    min-height: 230px;
-  }
-  #services .card {
-    min-height: 250px;
-  }
+  .container-style {
+    padding: 7% 0 10px 0;
+  } 
   header h1 {
-    font-size: 3rem;
+    font-size: 3em;
+  }
+  .navbar a {
+    font-size: 1.2em;
   }
 /* Removed border radius on background text for a different effect */
   .intro-heading {
