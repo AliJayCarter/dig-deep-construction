@@ -141,7 +141,7 @@
         <section id="contact" class="container-style" aria-label="Contact section with form to request a call">
             <div class="container text-center">
             <h2>Request Contact</h2>
-            <form class="row g-3 m-2" id="myForm">
+            <form class="row g-3 m-2" id="myForm" method= "post">
                 <!-- Name input field -->
                 <div class="col-md-6">
                   <label for="inputName" class="form-label">Name</label>
@@ -164,8 +164,8 @@
                       <option selected disabled hidden value="">Pick an option</option>
                       <option>General</option>
                       <option>Renovation</option>
-                        <option>Demolition</option>
-                        <option>Property Development</option>
+                      <option>Demolition</option>
+                      <option>Property Development</option>
                     </select>
                   </div>
                 <!-- Text area input field -->
@@ -230,13 +230,13 @@
                         <p>4399</p>
                         <p>Sweden</p>
                     </div>
-                    <div class="col-md-6 location-img text-start"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22639.05837063209!2d18.069917177524747!3d59.340243458680554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sse!4v1745409925627!5m2!1sen!2sse" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col-md-6 location-img text-start"><iframe title="Google maps location" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22639.05837063209!2d18.069917177524747!3d59.340243458680554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sse!4v1745409925627!5m2!1sen!2sse" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 </div>
             </div>
-            <div class="social-media" aria-label="Social media links">
-                <a href="https://www.facebook.com/?locale=sv_SE" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+            <div class="social-media">
+                <a href="https://www.facebook.com/?locale=sv_SE" name="" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://x.com/?lang=sv" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a>
                 <a href="https://se.linkedin.com/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
@@ -250,6 +250,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    <!-- Modal JS to prevent form submission -->
    <script>
+        // Prevent form submission and show modal adapted from Bootstrap library
         document.getElementById('myForm').addEventListener('submit', function (event) {
           event.preventDefault(); // Prevent actual form submission
       
