@@ -37,11 +37,10 @@
 header{
 background: no-repeat center/cover url("../images/header-image.jpg"); 
 background-position: 50% 20%;
-  background-color: #f1f1f1;
-  min-height: 250px;
-  max-height: 300px;
-padding-top: 70px;
-padding-bottom:30px;
+background-color: #f1f1f1;
+min-height: 50%;
+padding-top: 1%;
+padding-bottom:0.5%;
 }
 
 header h1 {
@@ -59,7 +58,7 @@ header p{
   font-weight: 400;
   font-style: italic;
   text-shadow: #333333 2px 2px 1px;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #ffffff;
 }
 
@@ -67,16 +66,17 @@ header p > span {
   font-weight: 400;
   font-style: italic;
   text-shadow: #333333 2px 2px 1px;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #ffa500;
 }
 
 header .btn {
- border-radius: 10px;
+  border-radius: 10px;
   transition: ease 0.3s;
   color: #333333;
   border: #000000 solid 1px;
   background-color: #ffa500;
+  font-size: 1.2em;
 }
 
 header .btn:hover {
@@ -297,10 +297,5 @@ footer .location-img iframe{
   }
   .navbar a {
     font-size: 1.2em;
-  }
-/* Removed border radius on background text for a different effect */
-  .intro-heading {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
   }
 }
