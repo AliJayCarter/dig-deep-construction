@@ -280,10 +280,10 @@ footer .location-img iframe{
 
 @media screen and (min-width: 1024px) {
   #about .card {
-    min-height: 280px;
+    min-height: 230px;
   }
   #services .card {
-    min-height: 320px;
+    min-height: 250px;
   }
   header h1 {
     font-size: 3rem;
@@ -292,14 +292,5 @@ footer .location-img iframe{
   .intro-heading {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  #about .card {
-    min-height: 230px;
-  }
-  #services .card {
-    min-height: 250px;
   }
 }
