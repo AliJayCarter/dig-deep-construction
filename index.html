@@ -141,7 +141,7 @@
         <section id="contact" class="container-style" aria-label="Contact section with form to request a call">
             <div class="container text-center">
             <h2>Request Contact</h2>
-            <form class="row g-3 m-2" id="myForm" method= "post">
+            <form class="row g-3 m-2" id="myForm" method= "GET" target="index.html">
                 <!-- Name input field -->
                 <div class="col-md-6">
                   <label for="inputName" class="form-label">Name</label>
@@ -180,23 +180,6 @@
                 </button>
                 </div>               
               </form>
-              <!-- Modal section once the form has been submitted from Boostrap library-->
-  <div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Success</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>Your request has been successfully sent!</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
             </div>
         </section>
         
@@ -248,18 +231,7 @@
     <script src="https://kit.fontawesome.com/211f8ef881.js" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-   <!-- Modal JS to prevent form submission -->
-   <script>
-        // Prevent form submission and show modal adapted from Bootstrap library
-        document.getElementById('myForm').addEventListener('submit', function (event) {
-          event.preventDefault(); // Prevent actual form submission
-      
-          // Show Bootstrap modal
-          var myModal = new bootstrap.Modal(document.getElementById('submitModal'));
-          myModal.show();
-        });
-      </script>
-      
+  
 </body>
 
 </html>
