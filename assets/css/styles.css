@@ -151,7 +151,6 @@ header .btn:hover {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /* min-height: 365px; */
   border:orange solid 1px;
 }
 
@@ -166,7 +165,6 @@ header .btn:hover {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /* min-height: 415px; */
   border: orange solid 1px;
 }
 
