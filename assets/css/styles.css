@@ -212,15 +212,16 @@ footer {
 }
 
 footer h2 {
-  text-decoration: underline #f1f1f1 solid 2px;
   text-align: center;
   margin-bottom: 20px;
-  color: #f1f1f1;
-  font-weight: 300;
+  color: #333333;
+  font-weight: 500;
   font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-shadow: #ffffff80 1px 1px 1px;
+  text-shadow: #ffffff 1px 1px 1px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
 }
 
 footer h5 {
@@ -265,6 +266,20 @@ footer .location-img iframe{
   margin: 0 auto;
   border-radius: 20px;
 }
+
+/* Success file  */
+#successText {
+  background-color: #ffffff;
+  padding: 25% 0;
+}
+
+#successText h1{
+  font-size: 3em;
+}
+#successText p{
+  font-size: 1.5em;
+}
+
 /* Media Queries */
 @media screen and (max-width: 425px) {
   .container-style {
