@@ -287,4 +287,12 @@ footer .location-img iframe{
   #services .card {
     min-height: 320px;
   }
+  header h1 {
+    font-size: 3rem;
+  }
+
+  .intro-heading {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
 }
