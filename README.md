@@ -1,5 +1,9 @@
-# dig-deep-construction
+# Dig Deep Construction
 Website Project - HTML, CSS
+
+The website is a landing page for a construction company. The website's main purpose is to inform the readers about their services, history and accreditations. The wesbite also provides contact information and provides the user an opportunity to request for a phone call about a specific service. 
+
+![Screenshot of wesbite on various devices](Screenshot 2025-05-01 at 11.04.42.png)
 
 ### Key Files
 - **`index.html`**: The main HTML file containing the structure of the website.
