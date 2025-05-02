@@ -1,42 +1,74 @@
 # Dig Deep Construction
-Website Project - HTML, CSS
-
-The website is a landing page for a construction company. The website's main purpose is to inform the readers about their services, history and accreditations. The wesbite also provides contact information and provides the user an opportunity to request for a phone call about a specific service. 
+Dig Deep Construction is a time efficent landing page whereby the user can quickly access the information needed about the company. The user can then request a call from the company with their desired needs as efficently as possible, allowing the business to have a specialist in their required service contact the user. 
 
 ![image](https://github.com/user-attachments/assets/e2e50f81-eda1-4414-869e-5de4a6f14884)
 
 ## Features
 ### 1. **Navbar**
-   - Located at the top of the website.
+   - Located at the top of the website at all times and follows down the page as the user scrolls down. 
    - Contains links to: "About", "Services" and "Contact"
    - "Contact" is a dropdown where the user picks between "Request Call" or "Our Info". Each directing them to a different section.
+   - "Contact" link has been removed for the success page once the user has submitted their request for a call.
+
+#### Large laptop view
+![image](https://github.com/user-attachments/assets/7802fd04-dc3e-459a-99bf-ebd61006f19f)
+
+#### Mobile
+![image](https://github.com/user-attachments/assets/75532e19-f147-47b7-98d6-f31db3ddc349)
+![image](https://github.com/user-attachments/assets/a5779e95-a608-4679-858f-25808ef0e993)
+
 
 ### 2. **Header**
    - Displays the company name and tagline.
    - Includes a call-to-action button linking to the contact form.
-     
-![image](https://github.com/user-attachments/assets/7f457706-3155-440f-b3f5-cff9325d7741)
+   - **See images above**
 
 ### 3. **About Us**
    - Provides information about the company's history, values, and certifications.
-![image](https://github.com/user-attachments/assets/46021117-0638-4c42-a067-88d595c29bac)
+#### Large Laptop
+![image](https://github.com/user-attachments/assets/95651c1b-3f90-4314-91e7-e51ff1ff6aa2)
+#### Mobile
+![image](https://github.com/user-attachments/assets/484fe761-663d-4ad1-ab26-6eed76d89f71)
 
 ### 4. **Services**
    - Highlights the company's key services with detailed descriptions.
-![image](https://github.com/user-attachments/assets/716b823b-e770-4e62-b3b3-340bac14db41)
+#### Large laptop
+![image](https://github.com/user-attachments/assets/b43e8569-0dbb-4fb0-b51b-8a9919706974)
+#### Mobile
+![image](https://github.com/user-attachments/assets/9e34c6f1-d951-4835-a8e5-02967a6e95b2)
 
 ### 5. **Contact**
-   - A form for users to submit their name, email, phone number, service selection, and comments.
-   - Includes a modal confirmation upon successful submission.
-![image](https://github.com/user-attachments/assets/57ad7f25-3930-42b1-a2e5-8b503c3fc76f)
-![image](https://github.com/user-attachments/assets/e3f220a1-2c15-4a35-8f29-96cedceda6cf)
+   - A form for users to submit their name, email, phone number, service selection, and comments. Form validation included to ensure that the user completes the form. 
+   - Opens a new html file "success.html" where a message is shown about thir succesful submission. They can then naviaget themselves back to the home back from the modified navbar.
+   - Submit button changes color when mouse is hovered over the button. 
+#### Large Laptop
+![image](https://github.com/user-attachments/assets/98efadff-e937-4cd1-b028-50f4016d25bd)
+#### Mobile
+![image](https://github.com/user-attachments/assets/91b98f06-0eb0-44c2-8ac4-9c809a0d4863)
+
+### 6. **Success**
+   - New html file where a message is shown to the user that their submission has been recieved and that they will be contacted shortly.
+   - User can direct themselves back to the home page by clicking on the "helmet" icon or directing themselves back to the "index.html" file to review the services again.
+#### Large laptop
+![image](https://github.com/user-attachments/assets/2b589dc4-4b91-4612-88f0-d8fb3906030f)
+#### Mobile
+![image](https://github.com/user-attachments/assets/a5cc006a-ad9e-498f-8ad5-7e9076572536)
 
 ### 6. **Footer**
    - Displays contact details, operating hours, location, and social media links.
-![image](https://github.com/user-attachments/assets/5175b096-c6bf-4dff-ae91-07eab16a35d6)
+   - Footer is the same for the "home(index.html)" page and the "success" page. 
+#### large Laptop
+![image](https://github.com/user-attachments/assets/1370f954-1ef7-40d0-b327-aaa1471a3ec0)
+#### Mobile
+![image](https://github.com/user-attachments/assets/f7dab9c4-da4c-4bd4-9f47-279072c0c45c)
+
+### Wireframe
+![image](https://share.balsamiq.com/c/1etaBDNsjZGiC76nG88zmo.jpg)
+
 
 ### Key Files
 - **`index.html`**: The main HTML file containing the structure of the website.
+- **`success.html`**: The main HTML file containing a success message once the user completes a "request for contact" form. 
 - **`styles.css`**: Custom CSS file for additional styling.
 - **`helmet-safety-solid.svg`**: Favicon for the website.
 - **`header-image.sjpg`**: Image for header background.
@@ -71,24 +103,17 @@ The website is a landing page for a construction company. The website's main pur
 - [Google Fonts](https://fonts.google.com/)
 
 ## Deployment
+### Github
 - The site was deployed using GitHub pages. The steps to deploy are as follows:
    - In the Github repository, navigate to Settings tab.
    - From the source section drop down menu, select Master Branch.
    - Once Master Branch selected, a link will be generated to the page.
    - The live link can be found here: [Dig Deep Construction](https://alijaycarter.github.io/dig-deep-construction/)
+ 
+### Local
+- 
 
 ## Credits
 - **Bootstrap**: Code from bootstrap was used for features such as cards, modal, navabar and form.
-- **Co-pilot**: Used to generate text to fill content.
-- **Pexels**: Used to obtain the header image. 
-
-## Custom Scripts
-The project includes a JavaScript snippet to handle form submission:
-```javascript
-document.getElementById('myForm').addEventListener('submit', function (event) {
-  event.preventDefault(); // Prevent actual form submission
-
-  // Show Bootstrap modal
-  var myModal = new bootstrap.Modal(document.getElementById('submitModal'));
-  myModal.show();
-});
+- **Pexels**: Used to obtain the header image.
+- **w3schools**: Used for coding help for different aspects of the project.
