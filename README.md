@@ -71,7 +71,7 @@ Dig Deep Construction is a time efficent landing page whereby the user can quick
 - **`success.html`**: The main HTML file containing a success message once the user completes a "request for contact" form. 
 - **`styles.css`**: Custom CSS file for additional styling.
 - **`helmet-safety-solid.svg`**: Favicon for the website.
-- **`header-image.sjpg`**: Image for header background.
+- **`header-image.jpg`**: Image for header background.
 
 ## Manual Testing
 ### 1. General Testing
@@ -124,9 +124,9 @@ Dig Deep Construction is a time efficent landing page whereby the user can quick
 ## Bugs
 ### Fixed Bugs
 - Heights of cards from Bootstrap library varied in height for the "About" and "Services" section on various devices. Media queries for screen widths were added to ensure the heights alligned.
-   - max-width: 425px: min-height for both sections changed to 200px.
-   - min-width: 768px min height "About" set to 342px and 430px for "Services sections.
-   - min-width: 1024px min height "About" set to 230px and 250px for "Services sections.
+   - max-width: 425px: min-height for both sections changed to line up card bottom lines.
+   - min-width: 768px min height for "About" and for "Services sections to ensure bottom alignment of cards.
+   - min-width: 1024px min height for "About" and for "Services sections to ensure bottom alignment of cards.
 - Contact form: Added value="" to ensure user cannot submit without picking a dropdown option for the "Services".
 
 ### Validator Testing
