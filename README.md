@@ -62,22 +62,64 @@ Dig Deep Construction is a time efficent landing page whereby the user can quick
 #### Mobile
 ![image](https://github.com/user-attachments/assets/f7dab9c4-da4c-4bd4-9f47-279072c0c45c)
 
-### Wireframe
+## Wireframe
 ![image](https://share.balsamiq.com/c/1etaBDNsjZGiC76nG88zmo.jpg)
 
 
-### Key Files
+## Key Files
 - **`index.html`**: The main HTML file containing the structure of the website.
 - **`success.html`**: The main HTML file containing a success message once the user completes a "request for contact" form. 
 - **`styles.css`**: Custom CSS file for additional styling.
 - **`helmet-safety-solid.svg`**: Favicon for the website.
 - **`header-image.sjpg`**: Image for header background.
 
-## Testing
-- The website was tested on Chrome, Firefox and Safari for resposiveness.
-- The form and dropdowns work as intended on all browsers listed.
-- The wesbite looks as it was intended on all device sizes on the browsers mentioned above.
-- The contact form was tested to ensure all fields are required along with the modal dropping down and confirming succesful submission. The fuction worked on all browsers mentioned above. 
+## Manual Testing
+### 1. General Testing
+- Website checked if it loaded correctly and it worked as intended.
+- Various browers were used to check cross-platform functionality.
+- Resposiveness was checked on the various browsers.
+- Checked the favicon and wesbite title was displayed. 
+
+### 2. Navbar: 
+- The navbar was tested to ensure it was visible and toggled to a drowdown icon on mobile screens and expanded on laptop screens.
+- Each link(about, services and contact) was clicked to check to see if it naviagted to the correct section.
+- Contact link was checked for dropdown functionality and if Request call and Our info was displayed below. 
+- Checked if it was sticky by scrolling down the page. 
+
+### 3. Header: 
+- The section was checked if the image, text and button displayed correctly.
+- The "request call" button was checked to ensure it navigated correctly. 
+
+### 4. About Section: 
+- Checked to ensure the cards displayed correctly on various screen sizes.
+- Informaition on the cards was checked to ensure it was correct.
+- Titles of the cards were checked.
+  
+### 5. Services Section
+- Checked to ensure the cards displayed correctly on various screen sizes.
+- Informaition on the cards was checked to ensure it was correct.
+- Titles of the cards were checked.
+  
+### 6. Contact Form Section
+- Checked the form displayed correctly depending on the screen size.
+- Verified the titles were correct for each field.
+- Ensured the titles were requried and of the correct type.
+- Pressed the "submit information" button with valid data to ensure redirect to "success.html" file.
+
+### 7. Footer
+- Checked for correct display for different screen sizes.
+- Checked the information and titles were correct.
+- Tested the Google maps embedded code to ensure it displayed the correct location.
+- Clicked on the social media links to ensure it opened in a new tab. 
+
+### 8. Success Page
+- Ensured the page was displayed when completing form with valid data.
+- Ensured the page was responsive according to various screen sizes.
+- Checked the success message was correct.
+- Verified the "helmet" icon redirects to the "home" page.
+- Checked the nav bar to ensure the "contact" link was not displayed.
+- Checked the footer to ensure it displayed the same way as the "index" file.
+- Checked social media links to ensure they open in a new tab. 
 
 ## Bugs
 ### Fixed Bugs
@@ -91,8 +133,7 @@ Dig Deep Construction is a time efficent landing page whereby the user can quick
 - HTML: No erros were returned from the official W3C validator.
 - CSS: No erros were returned from the official Jigsaw validator.
 - Accessibilty: I confirmed the fonts and colors are suitable by running the code through Lighthouse in devtools.
-![image](https://github.com/user-attachments/assets/e75d881c-e1a7-45d4-bea6-78f44d133b48)
-
+![image](https://github.com/user-attachments/assets/e6a2f759-0a50-4b36-ae9f-7041a3563ad1)
 
 ### Unfixed bugs
 - No bugs were left unfixed. 
@@ -111,7 +152,11 @@ Dig Deep Construction is a time efficent landing page whereby the user can quick
    - The live link can be found here: [Dig Deep Construction](https://alijaycarter.github.io/dig-deep-construction/)
  
 ### Local
-- 
+- Install Git and VS Code.
+   - Clone the repository using git clone.
+   - Navigate into the project folder.
+   - Open the project in VS Code.
+   - Run the project.
 
 ## Credits
 - **Bootstrap**: Code from bootstrap was used for features such as cards, modal, navabar and form.
